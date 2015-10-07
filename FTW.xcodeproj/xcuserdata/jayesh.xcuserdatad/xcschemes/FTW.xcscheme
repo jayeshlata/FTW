@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-<<<<<<< HEAD
    LastUpgradeVersion = "0700"
-=======
-   LastUpgradeVersion = "0640"
->>>>>>> 92b589cad741fe021f91b4578923dd5281f18d93
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -18,17 +14,12 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-<<<<<<< HEAD
                BlueprintIdentifier = "444094FC1BC5D5CB003D6D14"
-=======
-               BlueprintIdentifier = "4458E9151BA1D4680091256E"
->>>>>>> 92b589cad741fe021f91b4578923dd5281f18d93
                BuildableName = "FTW.app"
                BlueprintName = "FTW"
                ReferencedContainer = "container:FTW.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
-<<<<<<< HEAD
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -36,45 +27,17 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
-=======
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4458E92E1BA1D4680091256E"
-               BuildableName = "FTWTests.xctest"
-               BlueprintName = "FTWTests"
-               ReferencedContainer = "container:FTW.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-      </BuildActionEntries>
-   </BuildAction>
-   <TestAction
-      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      buildConfiguration = "Debug">
->>>>>>> 92b589cad741fe021f91b4578923dd5281f18d93
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-<<<<<<< HEAD
                BlueprintIdentifier = "444095151BC5D5CB003D6D14"
-=======
-               BlueprintIdentifier = "4458E92E1BA1D4680091256E"
->>>>>>> 92b589cad741fe021f91b4578923dd5281f18d93
                BuildableName = "FTWTests.xctest"
                BlueprintName = "FTWTests"
                ReferencedContainer = "container:FTW.xcodeproj">
             </BuildableReference>
          </TestableReference>
-<<<<<<< HEAD
          <TestableReference
             skipped = "NO">
             <BuildableReference
@@ -85,55 +48,34 @@
                ReferencedContainer = "container:FTW.xcodeproj">
             </BuildableReference>
          </TestableReference>
-=======
->>>>>>> 92b589cad741fe021f91b4578923dd5281f18d93
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-<<<<<<< HEAD
             BlueprintIdentifier = "444094FC1BC5D5CB003D6D14"
-=======
-            BlueprintIdentifier = "4458E9151BA1D4680091256E"
->>>>>>> 92b589cad741fe021f91b4578923dd5281f18d93
             BuildableName = "FTW.app"
             BlueprintName = "FTW"
             ReferencedContainer = "container:FTW.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-<<<<<<< HEAD
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
-=======
-   </TestAction>
-   <LaunchAction
->>>>>>> 92b589cad741fe021f91b4578923dd5281f18d93
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-<<<<<<< HEAD
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
-=======
-      buildConfiguration = "Debug"
-      ignoresPersistentStateOnLaunch = "NO"
-      debugDocumentVersioning = "YES"
->>>>>>> 92b589cad741fe021f91b4578923dd5281f18d93
       allowLocationSimulation = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-<<<<<<< HEAD
             BlueprintIdentifier = "444094FC1BC5D5CB003D6D14"
-=======
-            BlueprintIdentifier = "4458E9151BA1D4680091256E"
->>>>>>> 92b589cad741fe021f91b4578923dd5281f18d93
             BuildableName = "FTW.app"
             BlueprintName = "FTW"
             ReferencedContainer = "container:FTW.xcodeproj">
@@ -143,27 +85,16 @@
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
-<<<<<<< HEAD
       buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-=======
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      savedToolIdentifier = ""
-      useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Release"
->>>>>>> 92b589cad741fe021f91b4578923dd5281f18d93
       debugDocumentVersioning = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-<<<<<<< HEAD
             BlueprintIdentifier = "444094FC1BC5D5CB003D6D14"
-=======
-            BlueprintIdentifier = "4458E9151BA1D4680091256E"
->>>>>>> 92b589cad741fe021f91b4578923dd5281f18d93
             BuildableName = "FTW.app"
             BlueprintName = "FTW"
             ReferencedContainer = "container:FTW.xcodeproj">
