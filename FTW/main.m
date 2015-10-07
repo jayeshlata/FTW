@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* 
  
  Copyright (c) 2011, Philip Kluz (Philip.Kluz@zuui.org)
@@ -29,14 +30,30 @@
  SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  
  */
+=======
+//
+//  main.m
+//  FTW
+//
+//  Created by Jayesh Lata on 9/10/15.
+//  Copyright (c) 2015 Jayesh Lata. All rights reserved.
+//
+>>>>>>> 92b589cad741fe021f91b4578923dd5281f18d93
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 
+<<<<<<< HEAD
 int main(int argc, char *argv[])
 {
 	@autoreleasepool
 	{
 	    return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
 	}
+=======
+int main(int argc, char * argv[]) {
+    @autoreleasepool {
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+    }
+>>>>>>> 92b589cad741fe021f91b4578923dd5281f18d93
 }
