@@ -57,12 +57,10 @@
 /* Begin PBXFileReference section */
 		444094FD1BC5D5CB003D6D14 /* FTW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		444095011BC5D5CB003D6D14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		444095111BC5D5CB003D6D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		444095111BC5D5CB003D6D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		444095161BC5D5CB003D6D14 /* FTWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		444095211BC5D5CB003D6D14 /* FTWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		444095361BC5D683003D6D14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		444095381BC5D683003D6D14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
-		444095391BC5D683003D6D14 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		444095391BC5D683003D6D14 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		4440953C1BC5D683003D6D14 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = FrontViewController.xib; sourceTree = "<group>"; };
 		4440953E1BC5D683003D6D14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		444095401BC5D683003D6D14 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = MapViewController.xib; sourceTree = "<group>"; };
@@ -71,7 +69,7 @@
 		444095441BC5D683003D6D14 /* FrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrontViewController.m; sourceTree = "<group>"; };
 		444095451BC5D683003D6D14 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		444095461BC5D683003D6D14 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
-		444095471BC5D683003D6D14 /* Project-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Project-Prefix.pch"; sourceTree = "<group>"; };
+		444095471BC5D683003D6D14 /* Project-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Project-Prefix.pch"; path = "../Project-Prefix.pch"; sourceTree = "<group>"; };
 		444095481BC5D683003D6D14 /* RearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RearViewController.h; sourceTree = "<group>"; };
 		444095491BC5D684003D6D14 /* RearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RearViewController.m; sourceTree = "<group>"; };
 		4440954B1BC5D684003D6D14 /* 21-skull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "21-skull.png"; sourceTree = "<group>"; };
@@ -144,14 +142,11 @@
 		444094FF1BC5D5CB003D6D14 /* FTW */ = {
 			isa = PBXGroup;
 			children = (
+				444095811BC5DFE7003D6D14 /* XIBs */,
 				444095801BC5DC47003D6D14 /* ViewControllers */,
-				444095341BC5D683003D6D14 /* Base.lproj */,
 				4440953A1BC5D683003D6D14 /* en.lproj */,
 				4440954A1BC5D684003D6D14 /* Resources */,
 				444095001BC5D5CB003D6D14 /* Supporting Files */,
-				444095391BC5D683003D6D14 /* Default-568h@2x.png */,
-				444095111BC5D5CB003D6D14 /* Info.plist */,
-				444095471BC5D683003D6D14 /* Project-Prefix.pch */,
 				4440957D1BC5DA01003D6D14 /* AppDelegate.h */,
 				4440957E1BC5DA41003D6D14 /* AppDelegate.m */,
 			);
@@ -166,22 +161,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		444095341BC5D683003D6D14 /* Base.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				444095351BC5D683003D6D14 /* LaunchScreen.storyboard */,
-				444095371BC5D683003D6D14 /* Main.storyboard */,
-			);
-			path = Base.lproj;
-			sourceTree = "<group>";
-		};
 		4440953A1BC5D683003D6D14 /* en.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				4440953B1BC5D683003D6D14 /* FrontViewController.xib */,
 				4440953D1BC5D683003D6D14 /* InfoPlist.strings */,
-				4440953F1BC5D683003D6D14 /* MapViewController.xib */,
-				444095411BC5D683003D6D14 /* RearViewController.xib */,
+				444095111BC5D5CB003D6D14 /* Info.plist */,
+				444095391BC5D683003D6D14 /* Default-568h@2x.png */,
+				444095471BC5D683003D6D14 /* Project-Prefix.pch */,
 			);
 			path = en.lproj;
 			sourceTree = "<group>";
@@ -230,14 +216,32 @@
 		444095801BC5DC47003D6D14 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				444095821BC5E584003D6D14 /* RevealViewControllers */,
 				444095431BC5D683003D6D14 /* FrontViewController.h */,
 				444095441BC5D683003D6D14 /* FrontViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		444095811BC5DFE7003D6D14 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				4440953B1BC5D683003D6D14 /* FrontViewController.xib */,
+				4440953F1BC5D683003D6D14 /* MapViewController.xib */,
+				444095411BC5D683003D6D14 /* RearViewController.xib */,
+			);
+			name = XIBs;
+			sourceTree = "<group>";
+		};
+		444095821BC5E584003D6D14 /* RevealViewControllers */ = {
+			isa = PBXGroup;
+			children = (
 				444095451BC5D683003D6D14 /* MapViewController.h */,
 				444095461BC5D683003D6D14 /* MapViewController.m */,
 				444095481BC5D683003D6D14 /* RearViewController.h */,
 				444095491BC5D684003D6D14 /* RearViewController.m */,
 			);
-			name = ViewControllers;
+			name = RevealViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -428,28 +432,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		444095351BC5D683003D6D14 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				444095361BC5D683003D6D14 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		444095371BC5D683003D6D14 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				444095381BC5D683003D6D14 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4440953B1BC5D683003D6D14 /* FrontViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4440953C1BC5D683003D6D14 /* en */,
 			);
 			name = FrontViewController.xib;
+			path = en.lproj;
 			sourceTree = "<group>";
 		};
 		4440953D1BC5D683003D6D14 /* InfoPlist.strings */ = {
@@ -466,6 +455,7 @@
 				444095401BC5D683003D6D14 /* en */,
 			);
 			name = MapViewController.xib;
+			path = en.lproj;
 			sourceTree = "<group>";
 		};
 		444095411BC5D683003D6D14 /* RearViewController.xib */ = {
@@ -474,6 +464,7 @@
 				444095421BC5D683003D6D14 /* en */,
 			);
 			name = RearViewController.xib;
+			path = en.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -650,6 +641,7 @@
 				4440952C1BC5D5CB003D6D14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4440952D1BC5D5CB003D6D14 /* Build configuration list for PBXNativeTarget "FTWTests" */ = {
 			isa = XCConfigurationList;
@@ -658,6 +650,7 @@
 				4440952F1BC5D5CB003D6D14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		444095301BC5D5CB003D6D14 /* Build configuration list for PBXNativeTarget "FTWUITests" */ = {
 			isa = XCConfigurationList;
@@ -666,6 +659,7 @@
 				444095321BC5D5CB003D6D14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
